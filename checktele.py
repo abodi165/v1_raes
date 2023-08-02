@@ -250,7 +250,7 @@ async def _(event):
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-ᴛʜᴇ ᴋɪɴɢ ᴏғ ʀᴀᴇѕ 🍺 
+ᴛʜᴇ ᴋɪɴɢ ᴏғ ᴀʙᴏᴅ 🍺 
  - - - - - - - - - - -  
   ‹𓏺  . FIGHT,َِFOR َِYOUR َِdream .
 
@@ -260,7 +260,7 @@ async def _(event):
 
 ѕᴀᴠᴇ : ❲ ᴄʜᴀɴɴᴇʟ ❳‌‌  ⚚ 
 
- ʙʏ : ❲ @xX_Raes  :  @PR_RRR ❳‌‌  ⚚
+ ʙʏ : ❲ @u0uu0  :  @i_m_q ❳‌‌  ⚚
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -273,7 +273,7 @@ async def _(event):
                     if "A wait of" in str(eee):
                         break
                     else:
-                        await sython.send_message(event.chat.id, " خاصيه 🔥وصلت !")
+                        await sython.send_message(event.chat.id, " خاصيه 𝘼𝘽𝙊𝘿┋🇮🇶₂₀₀₇ !")
             else:
                 pass
             trys += 1
@@ -281,7 +281,7 @@ async def _(event):
         isclaim.clear()
         isclaim.append("off")
         trys = ""
-        await event.client.send_message(event.chat_id, "! 😔انتهى الصيد")
+        await event.client.send_message(event.chat_id, "! 🍺انتهى الصيد")
         
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت (.*)"))
 async def _(event):
@@ -317,7 +317,7 @@ async def _(event):
                         await sython(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-                        ᴛʜᴇ ᴋɪɴɢ ᴏғ ʀᴀᴇѕ 🍺 
+                        ᴛʜᴇ ᴋɪɴɢ ᴏғ ᴀʙᴏᴅ 🍺 
  - - - - - - - - - - -  
   ‹𓏺  . FIGHT,َِFOR َِYOUR َِdream .
 
@@ -327,7 +327,7 @@ async def _(event):
 
 ѕᴀᴠᴇ : ❲ ᴄʜᴀɴɴᴇʟ ❳‌‌  ⚚ 
 
- ʙʏ : ❲ @xX_Raes  :  @PR_RRR ❳‌‌  ⚚ 
+ ʙʏ : ❲ @u0uu0  :  @i_m_q ❳‌‌  ⚚ 
   ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -358,7 +358,7 @@ async def _(event):
                 await sython(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-ᴛʜᴇ ᴋɪɴɢ ᴏғ ʀᴀᴇѕ 🍺 
+ᴛʜᴇ ᴋɪɴɢ ᴏғ ᴀʙᴏᴅ 🍺 
  - - - - - - - - - - -  
   ‹𓏺  . FIGHT,َِFOR َِYOUR َِdream .
 
@@ -368,7 +368,7 @@ async def _(event):
 
 ѕᴀᴠᴇ : ❲ ᴄʜᴀɴɴᴇʟ ❳‌‌  ⚚ 
 
- ʙʏ : ❲ @xX_Raes  :  @PR_RRR ❳‌‌  ⚚ 
+ ʙʏ : ❲ @u0uu0  :  @i_m_q ❳‌‌  ⚚ 
  
   ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
