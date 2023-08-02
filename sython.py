@@ -79,12 +79,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**𓃚𓃚 WELCOME TO SOURCE RAES 
+**𓃚𓃚 WELCOME TO SOURCE ᴀʙᴏᴅ
 𓃚𓃚 VERSION : 2.9
 𓃚𓃚 PING : `{ms}`
 𓃚 DATE : `{m9zpi}`
 𓃚 ID : `{event.sender_id}`
-𓃚ɞ SOURCE  : @Y_x_P**
+𓃚ɞ SOURCE  : @i_m_q**
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -390,17 +390,17 @@ async def _(event):
       await event.reply("""السـورس يعمـل | 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-- المطور : ريس | Raes
+- المطور : عبود | ᴀʙᴏᴅ
 
 - سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها
 
-قناة السورس : https://t.me/@PR_RRR
+قناة السورس : https://t.me/@i_m_q
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""SY OWNER : @Y_x_P """
+      await event.reply("""SY OWNER : @u0uu0 """
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
