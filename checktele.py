@@ -247,17 +247,17 @@ async def _(event):
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-🐊━━━━━━🐊
-┏━━🔔
-- By ↣ @v_w_f 
-┗━━━━━┛
-┏━━🔔
+🇮🇶━━━━━━🇮🇶
+┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
+- By ↣ @u0uu0
+┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
+┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
 ↣ (@{username})
-┗━━━━━┛
-┏━━━━━┓
+┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
+┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
 - By ↣ @i_m_q 
-┗━━🔔
-🐊━━━━━━🐊
+┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
+🇮🇶━━━━━━🇮🇶
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -278,7 +278,7 @@ async def _(event):
         isclaim.clear()
         isclaim.append("off")
         trys = ""
-        await event.client.send_message(event.chat_id, "! انتهى الصيد")
+        await event.client.send_message(event.chat_id, "🛎 انتهى الصيد")
         
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت (.*)"))
 async def _(event):
@@ -314,17 +314,17 @@ async def _(event):
                         await sython(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-🐊━━━━━━🐊
-┏━━🔔
-- By ↣ @v_w_f 
-┗━━━━━┛
-┏━━🔔
+🇮🇶━━━━━━🇮🇶
+┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
+- By ↣ @u0uu0
+┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
+┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
 ↣ (@{username})
-┗━━━━━┛
-┏━━━━━┓
+┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
+┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
 - By ↣ @i_m_q 
-┗━━🔔
-🐊━━━━━━🐊
+┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
+🇮🇶━━━━━━🇮🇶
 
     ''')
                         break
@@ -356,17 +356,17 @@ async def _(event):
                 await sython(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-🐊━━━━━━🐊
-┏━━🔔
-- By ↣ @v_w_f 
-┗━━━━━┛
-┏━━🔔
+🇮🇶━━━━━━🇮🇶
+┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
+- By ↣ @u0uu0
+┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
+┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
 ↣ (@{username})
-┗━━━━━┛
-┏━━━━━┓
+┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
+┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
 - By ↣ @i_m_q 
-┗━━🔔
-🐊━━━━━━🐊
+┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
+🇮🇶━━━━━━🇮🇶
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
