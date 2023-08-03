@@ -79,12 +79,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**𓃚𓃚 WELCOME TO 
+**𓃚𓃚 WELCOME TO 𝙰𝙱𝙾𝙳 𝙲𝙷𝙴𝙲𝙺𝙴𝚁
 𓃚𓃚 VERSION : 2.8
 𓃚𓃚 PING : `{ms}`
-𓃚 DATE : `{m9zpi}`
-𓃚 ID : `{event.sender_id}`
-𓃚𓃚 SOURCE  : @v_w_f**
+𓃚𓃚 DATE : `{m9zpi}`
+𓃚𓃚 ID : `{event.sender_id}`
+𓃚𓃚 SOURCE  : @u0uu0**
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -114,11 +114,11 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 5159123009
+ownerabod_id = 411414467
 @sython.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
-    if sender.id == ownerhson_id :
+    if sender.id == ownerabod_id :
         order = await event.reply('مرحبا ايها المطور')
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
@@ -229,12 +229,12 @@ async def join_channel():
  
  
 GCAST_BLACKLIST = [
-    -1001884452589,
-    -1001884452589,
+    -1849313628,
+    -1849313628,
 ]
 
 DEVS = [
-    5159123009,
+    411414467,
 ]
 
 def calc(num1, num2, fun):
@@ -390,7 +390,7 @@ async def _(event):
       await event.reply("""السـورس يعمـل | 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-- المطور : علوش | Alosh
+- المطور : عبود | Abod
 
 - سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها
 
@@ -400,7 +400,7 @@ async def _(event):
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""SY OWNER : @v_w_f """
+      await event.reply("""SY OWNER : @u0uu0 """
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
