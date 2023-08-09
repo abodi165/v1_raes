@@ -247,19 +247,11 @@ async def _(event):
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
+                    
+𝚝𝚑𝚎 𝚔𝚒𝚗𝚐 ↣ @u0uu0
+𝚞𝚜𝚎𝚛 (@{username})
+𝚋𝚢 ↣ @i_m_q 
 
-https://telegra.ph/file/937162690c2e65f1be684.mp4
-🇮🇶━━━━━━🇮🇶
-┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
-- By ↣ @u0uu0
-┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
-┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
-↣ (@{username})
-┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
-┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
-- By ↣ @i_m_q 
-┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
-🇮🇶━━━━━━🇮🇶
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -280,7 +272,7 @@ https://telegra.ph/file/937162690c2e65f1be684.mp4
         isclaim.clear()
         isclaim.append("off")
         trys = ""
-        await event.client.send_message(event.chat_id, "🛎 انتهى الصيد")
+        await event.client.send_message(event.chat_id, " انتهى الصيد")
         
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت (.*)"))
 async def _(event):
@@ -317,18 +309,9 @@ async def _(event):
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
 
-https://telegra.ph/file/937162690c2e65f1be684.mp4
-🇮🇶━━━━━━🇮🇶
-┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
-- By ↣ @u0uu0
-┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
-┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
-↣ (@{username})
-┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
-┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
-- By ↣ @i_m_q 
-┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
-🇮🇶━━━━━━🇮🇶
+𝚝𝚑𝚎 𝚔𝚒𝚗𝚐 ↣ @u0uu0
+𝚞𝚜𝚎𝚛 (@{username})
+𝚋𝚢 ↣ @i_m_q
 
     ''')
                         break
@@ -360,17 +343,11 @@ https://telegra.ph/file/937162690c2e65f1be684.mp4
                 await sython(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-🇮🇶━━━━━━🇮🇶
-┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
-- By ↣ @u0uu0
-┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
-┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
-↣ (@{username})
-┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
-┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
-- By ↣ @i_m_q 
-┗ᚑᚑᚑ᯽ᚑᚑᚑ┛
-🇮🇶━━━━━━🇮🇶
+
+𝚝𝚑𝚎 𝚔𝚒𝚗𝚐 ↣ @u0uu0
+𝚞𝚜𝚎𝚛 (@{username})
+𝚋𝚢 ↣ @i_m_q
+
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
