@@ -247,6 +247,8 @@ async def _(event):
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
+
+https://telegra.ph/file/937162690c2e65f1be684.mp4
 🇮🇶━━━━━━🇮🇶
 ┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
 - By ↣ @u0uu0
@@ -314,6 +316,8 @@ async def _(event):
                         await sython(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
+
+https://telegra.ph/file/937162690c2e65f1be684.mp4
 🇮🇶━━━━━━🇮🇶
 ┏ᚑᚑᚑ᯽ᚑᚑᚑ┓
 - By ↣ @u0uu0
